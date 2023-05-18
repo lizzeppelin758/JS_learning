@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Атрибуты тегов как свойства</title>
+   
+</head>
+<body>
+<ol>
+    <li>Дан инпут и кнопка. По нажатию на кнопку запишите в инпут какой-нибудь текст.</li>    
+
+    <button id="button1">change this text</button>
+    <input id="elem1" type="text">
+
+    <li>Дан инпут, абзац и кнопка. По нажатию на кнопку запишите в абзац текст из инпута.</li>
+    <button id="button2">change type to submit</button>
+    <input id="elem2" type="email">
+
+    <li>Пусть у вас есть ссылка в виде тега a, кнопка и абзац. По нажатию на кнопку выведите в абзац содержимое атрибута href ссылки.</li>
+    <button id="button3">show href of this link</button>
+    <a id="link1" href="http://yandex.ru">Yandex</a>
+    <p id="link_name"></p>
+    
+    <li>Пусть у вас есть ссылка и кнопка. По нажатию на кнопку добавьте в конец текста ссылки содержимое ее атрибута href в круглых скобках.</li>
+    <button id="button4">add to the end href content</button>
+    <a id="link2" href="http://yandex.ru">Yandex</a>
+
+    <li>Пусть у вас есть картинка. Разместите ее на странице с помощью тега img. Пусть даны также кнопка и абзац. Сделайте так, чтобы по клику на кнопку в абзац записался путь к картинки из ее атрибута src.</li>
+    <img id="img5" src="image.jpg" height="400px" alt="image">
+    <button id="button5">show image source</button>
+    <p id="source"></p>
+
+    <li>Дана картинка в теге img и кнопка. По нажатию на кнопку в атрибут width запишите значение 300.</li>
+    <img id="img6" src="image.jpg" alt="image">
+    <button id="button6">change width to 300px</button>
+
+    <li>Дана картинка в теге img и кнопка. Пусть в атрибуте width задана некоторая ширина. Сделайте кнопку, по нажатию на которую ширина картинки будет увеличиваться в 2 раза.</li>
+    <img id="img7" src="image.jpg" width="200px" alt="image">
+    <button id="button7">change width twice</button> 
+
+    <li>Пусть у вас есть две картинки. Сделайте на странице тег img и две кнопки. По нажатию на первую кнопку запишите в атрибут src путь к первой картинке, а по нажатию на вторую - путь ко второй картинке.</li>
+    <img id="img8" src="turtle1.jpg" width="400px" alt="turtle1">
+    <img id="img9" src="turtle2.jpg" width="400px" alt="turtle2">
+    <button id="button8">show first image source</button>
+    <button id="button9">show second image source</button>
+
+
+
+    
+
+    
+
+</ol>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Нахождение элементов по родственным связям</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+<ol>
+    <p>Потомки элементов</p>
+    <li>Дан элемент #elem. Найдите первого потомка этого элемента и сделайте его текст красного цвета.</li>  
+    <ul id="elem1">
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul>
+    
+    <li>Дан элемент #elem. Найдите последнего потомка этого элемента и сделайте его текст красного цвета..</li>
+    <ul id="elem2">
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul>
+
+
+    <li>Дан элемент #elem. Найдите всех потомков этого элемента и добавьте им в конец текст '!'.</li>
+    <ul id="elem3">
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul>
+
+    <p>Родители элементов</p>
+    <li>Дан элемент #elem. Найдите его родителя и задайте ему красную границу.</li>
+    <div>
+        <ul>
+            <li>text</li>
+            <li>text</li>
+            <li id="elem4">text</li>
+            <li>text</li>
+            <li>text</li>
+        </ul>
+    </div>
+
+    <p>Поиск всех родителей</p>
+    <li>Дан элемент. Найдите ближайшего родителя этого элемента, являющегося тегом div.</li>
+    <header>
+        <div>
+            <p> Text
+                <span id="elem5">Text</span>
+            </p>
+        </div>
+    </header>
+
+    <li>Дан элемент. Найдите ближайшего родителя этого элемента, являющегося элементом с классом www.</li>
+    <header>
+        <div class="www">
+            <p class="www">Text
+                <span id="elem6">Text</span>
+            </p>
+        </div>
+    </header>
+
+    <p>Поиск соседей</p>
+    <li>Дан элемент #elem. Найдите его соседа сверху и добавьте ему в конец текст '!'.</li>
+    <ul>
+        <li>text</li>
+        <li>text</li>
+        <li id="elem7">text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul>
+
+    <li>Дан элемент #elem. Найдите его соседа снизу и добавьте ему в конец текст '!'.</li>
+    <ul>
+        <li>text</li>
+        <li>text</li>
+        <li id="elem8">text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul>
+    <li>Дан элемент #elem. Найдите его соседа снизу его соседа снизу (следующий элемент за соседним) и добавьте ему в конец текст '!'.</li>
+    <ul>
+        <li>text</li>
+        <li>text</li>
+        <li id="elem9">text</li>
+        <li>text</li>
+        <li>text</li>
+    </ul>
+
+    <li>Дан элемент #elem. Поменяйте местами текст его соседа сверху и текст его соседа снизу.</li>
+    <ul>
+        <li>text1</li>
+        <li>text2</li>
+        <li id="elem10">text3</li>
+        <li>text4</li>
+        <li>text5</li>
+    </ul>
+</ol>
+<script src="script.js"></script>
+</body>
+</html>

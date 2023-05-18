@@ -1,0 +1,50 @@
+В JavaScript семь примитивных типов данных: string, number, boolean, null, undefined, symbol, bigint.
+
+№1⊗jsPmObOP
+
+Дан следующий код:
+
+let test = {x: 1, y: 2, z: 3};
+console.log(test); // 'object'
+
+ №2⊗jsPmObOP
+
+Дан следующий код:
+
+let test = {x: 1, y: 2, z: 3};
+console.log(test.x); // 'number'
+
+№3⊗jsPmObOP
+
+Дан следующий код:
+
+let test = [1, 2, 3];
+console.log(test); // 'object'
+
+№4⊗jsPmObOP
+
+Дан следующий код:
+
+let test = [1, 2, 3];
+console.log(test[1]); // 'number'
+
+№5⊗jsPmObOP
+
+Дан следующий код:
+
+let test1 = [1, 2, 3];
+let test2 = 1;
+
+console.log(test1); // 'object'
+
+№6⊗jsPmObOP
+
+Дан следующий код:
+
+let test1 = [1, 2, 3];
+let test2 = 1;
+
+console.log(test1[test2]); // 'number'
+
+
+№7. string, number, boolean, undefined, nuul, symbol, bigint

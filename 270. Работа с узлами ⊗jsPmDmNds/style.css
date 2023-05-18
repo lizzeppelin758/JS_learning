@@ -1,0 +1,15 @@
+.colored {
+    color:red;
+}
+
+.decoration {
+    text-decoration: line-through;
+}
+
+.letter_style {
+    font-weight: bold;
+}
+
+.parent_border {
+    border: 2px dotted black;
+}

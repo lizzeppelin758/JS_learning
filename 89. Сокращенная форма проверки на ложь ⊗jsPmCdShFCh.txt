@@ -1,0 +1,62 @@
+№1⊗jsPmCdShFCh
+
+Перепишите следующий код с использованием сокращенной формы:
+
+let test = true;
+
+if (test == false) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+//
+
+let test = true;
+
+if (!test) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+№2⊗jsPmCdShFCh
+
+Перепишите следующий код с использованием сокращенной формы:
+
+let test = true;
+
+if (test != true) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+//
+
+let test = true;
+
+if (!test) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+№3⊗jsPmCdShFCh
+
+Перепишите следующий код с использованием сокращенной формы:
+
+let test = true;
+
+if (test != false) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+//
+
+let test = true;
+
+if (!test) {
+	console.log('+++');
+} else {
+	console.log('---');
+}

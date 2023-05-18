@@ -1,0 +1,42 @@
+№1
+let test = Boolean(3); // true
+№2
+let test = Boolean(0); // false
+№3
+let test = Boolean(-1); // true
+№4
+let test = Boolean(-0); // false
+№5
+let test = Boolean(+0); // false
+№6
+let test = Boolean('abc'); // true
+№7
+let test = Boolean(''); // false
+№8
+let test = Boolean('0'); // true
+№9
+let test = Boolean(true); // true
+№10
+let test = Boolean(false); // false
+№11
+let test = Boolean('true'); // true
+№12
+let test = Boolean('false'); // true
+№13
+let test = Boolean(null); // false
+№14
+let test = Boolean('null'); // true
+№15
+let test = Boolean(undefined); // false
+№16
+let test = Boolean('undefined'); // true
+№17
+let test = Boolean(NaN); // false
+№18
+let test = Boolean('NaN'); // true
+№19
+let test = Boolean(3 * 'abc'); // false
+№20
+let test = Boolean(Infinity); // true
+№21
+let test = Boolean(1 / 0); // true

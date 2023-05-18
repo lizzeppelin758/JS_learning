@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пользовательские атрибуты</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+<ol>
+
+    <li>Дан следующий код. Сделайте так, чтобы по клику на див в конец его текста добавилось содержимое его атрибута data-text.</li>  
+    <div id="elem1" data-text="str">text</div>
+
+    <li>Даны дивы, содержащие в атрибуте data-num свой порядковый номер.Сделайте так, чтобы по клику на любой из дивов ему в конец записывался его порядковый номер.</li>
+    <div class="N1">
+    <div data-num="1">text</div>
+    <div data-num="2">text</div>
+    <div data-num="3">text</div>
+    <div data-num="4">text</div>
+    <div data-num="5">text</div>
+    </div>
+
+    <li>Дана кнопка. Сделайте так, чтобы эта кнопка считала количество кликов по ней, записывая их в какой-нибудь пользовательский атрибут. Пусть по клику на другую кнопку на экран выводится, сколько кликов было сделано по первой кнопке.</li>
+    <button id="button1" data-click="0">Click again and again</button>
+    <button id="button2">How many times did you click first button?</button>
+    <p id="num_clicks"></p>
+
+    <li>Дан инпут. В этом инпуте в атрибуте data-length содержится количество символов, которое нужно ввести в инпут. Сделайте так, чтобы по потери фокуса, если количество введенных символов не совпадает с заданным, выводилось сообщение об этом.</li>
+    <input id="elem4" data-length="5">
+    <p id="message"></p>
+
+    <li>Дан инпут. В этом инпуте атрибуты data-min и data-max содержат диапазон. Сделайте так, чтобы по потери фокуса, если количество введенных символов не попадает в этот диапазон, выводилось сообщение об этом.</li>
+    <input id="elem5" data-min="5" data-max="10">
+    <p id="message5"></p>
+
+    <li>Дан следующий код. Сделайте так, чтобы по клику на див в конец его текста добавлялась стоимость покупки, равная цене, умноженной на количество.</li>
+    <div id="elem6" data-product-price="1000" data-product-amount="5">
+        товар яблоки
+    </div>
+
+    <li>Даны абзацы. Переберите их циклом и каждому абзацу в атрибут data-num запишите порядковый номер этого абзаца. Используйте метод setAttribute.</li>
+    <p class="text7">1</p>
+    <p class="text7">2</p>
+    <p class="text7">3</p>
+    <p class="text7">4</p>
+    <p class="text7">5</p>
+
+
+    
+    
+    
+</ol>
+<script src="script.js"></script>
+</body>
+</html>
