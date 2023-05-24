@@ -1,5 +1,8 @@
-.colored {
-    color:red;
+.colored_right{
+    background-color: green;
+}
+.colored_wrong {
+    background-color: red;
 }
 
 .decoration {
